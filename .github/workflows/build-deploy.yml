@@ -52,7 +52,7 @@
          run: |
            echo ${{ env.REPOSITORY_NAME }}
      # Add a id-token permission
-     permissions:
+     permission:
        id-token: write
        # Add a step
        - name: Azure Login using OIDC
