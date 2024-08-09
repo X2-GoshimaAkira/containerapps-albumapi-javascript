@@ -54,7 +54,7 @@
      # Add a id-token permission
      permissions:
        id-token: write
-            # Add a step
+       # Add a step
        - name: Azure Login using OIDC
          uses: azure/login@v1
          with:
