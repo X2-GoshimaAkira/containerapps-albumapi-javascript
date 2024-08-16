@@ -5,6 +5,8 @@
   # Add env
  env:
    CONTAINER_REGISTRY:  604618fqrvqvrhrrzls.azurecr.io
+   RESOURCE_GROUP_NAME: Handson01-X2-604618
+   CONTAINERAPP_NAME: ctapp-demo-api
  jobs:
    build:
      runs-on: ubuntu-22.04
